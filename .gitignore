@@ -1,0 +1,32 @@
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Large raw training data
+data/*.csv
+data/*.parquet
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
