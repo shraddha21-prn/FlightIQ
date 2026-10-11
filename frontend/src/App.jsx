@@ -42,7 +42,7 @@ import "./index.css";
 
 
 
-const API_BASE = "http://127.0.0.1:5000";
+const API_BASE = "https://flightiq-7i44.onrender.com";
 
 
 
